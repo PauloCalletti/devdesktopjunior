@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "a91e5b2f-4120-4856-ae4f-cbc25d762dc0",
+		"name": "viaCEP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14271242"
+	},
+	"item": [
+		{
+			"name": "Consulta Logradouro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "viacep.com.br/ws/PR/Maringa/Rua+Antonio+Carniel/json/",
+					"host": [
+						"viacep",
+						"com",
+						"br"
+					],
+					"path": [
+						"ws",
+						"PR",
+						"Maringa",
+						"Rua+Antonio+Carniel",
+						"json",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta CEP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://viacep.com.br/ws/87015310/json/",
+					"protocol": "https",
+					"host": [
+						"viacep",
+						"com",
+						"br"
+					],
+					"path": [
+						"ws",
+						"87015310",
+						"json",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
